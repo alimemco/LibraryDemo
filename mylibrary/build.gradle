@@ -1,9 +1,12 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 29
     buildToolsVersion "47.0.0"
 
+    group = 'com.alirnp.lib'
+    version = '4.0'
 
     defaultConfig {
         minSdkVersion 15
